@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DreamHomes Inc.</title>
+  <title>UrbanNest Realty</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
     }
 
     header {
@@ -22,13 +23,14 @@
       background-color: #34495e;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
     }
 
     nav a {
       color: white;
       text-decoration: none;
       padding: 14px 20px;
-      display: block;
+      transition: background 0.3s;
     }
 
     nav a:hover {
@@ -36,25 +38,38 @@
     }
 
     section {
-      padding: 40px;
+      padding: 50px 20px;
       text-align: center;
+    }
+
+    section h2 {
+      color: #2c3e50;
     }
 
     footer {
       background-color: #2c3e50;
       color: white;
       text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        text-align: center;
+        border-top: 1px solid #1abc9c;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>DreamHomes Inc.</h1>
-    <p>Your trusted partner in real estate</p>
+    <h1>UrbanNest Realty</h1>
+    <p>Helping you rent, buy, and sell with ease</p>
   </header>
 
   <nav>
@@ -66,26 +81,26 @@
 
   <section id="about">
     <h2>About Us</h2>
-    <p>DreamHomes Inc. is a dummy company created to showcase a simple website layout. We specialize in helping clients rent, buy, and sell properties with ease.</p>
+    <p>UrbanNest Realty is a fictional company created to demonstrate a simple real estate website. We pride ourselves on connecting people with their perfect homes.</p>
   </section>
 
   <section id="rent">
     <h2>Properties To Rent</h2>
-    <p>Browse our wide range of rental properties suited for every lifestyle and budget.</p>
+    <p>Explore our listings of rental properties tailored to different lifestyles and budgets.</p>
   </section>
 
   <section id="buy">
     <h2>Properties To Buy</h2>
-    <p>Find your dream home with our curated listings of properties available for purchase.</p>
+    <p>Find your forever home with our curated selection of properties available for purchase.</p>
   </section>
 
   <section id="sell">
     <h2>Sell Your Property</h2>
-    <p>Looking to sell? We provide expert guidance and marketing to help you get the best value.</p>
+    <p>Ready to sell? We provide expert guidance and marketing strategies to help you get the best value.</p>
   </section>
 
   <footer>
-    <p>&copy; 2026 DreamHomes Inc. | All Rights Reserved</p>
+    <p>&copy; 2026 UrbanNest Realty | All Rights Reserved</p>
   </footer>
 </body>
 </html>
