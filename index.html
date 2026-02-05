@@ -1,116 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Zetta Technologies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamHomes Inc.</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #f4f6f8;
-      color: #333;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
     }
 
     header {
-      background-color: #0d6efd;
+      background-color: #2c3e50;
       color: white;
       padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
       display: flex;
-      align-items: center;
-      gap: 15px;
+      justify-content: center;
     }
 
-    .logo {
-      width: 50px;
-      height: 50px;
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
     }
 
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+    nav a:hover {
+      background-color: #1abc9c;
     }
 
     section {
-      background: white;
-      padding: 25px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    }
-
-    h1, h2 {
-      margin-top: 0;
+      padding: 40px;
+      text-align: center;
     }
 
     footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #222;
-      color: #bbb;
-      font-size: 0.9rem;
-    }
-
-    button {
-      background-color: #0d6efd;
+      background-color: #2c3e50;
       color: white;
-      border: none;
-      padding: 10px 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    button:hover {
-      background-color: #084298;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <!-- Simple SVG Logo -->
-    <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="50" cy="50" r="45" fill="#ffffff"/>
-      <text x="50" y="58" text-anchor="middle" font-size="36" fill="#0d6efd" font-weight="bold">
-        ZT
-      </text>
-    </svg>
-
-    <h1>Zetta Technologies</h1>
+    <h1>DreamHomes Inc.</h1>
+    <p>Your trusted partner in real estate</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>
-        Watch This Space People
-      </p>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#rent">To Rent</a>
+    <a href="#buy">To Buy</a>
+    <a href="#sell">To Sell</a>
+  </nav>
 
-    <section>
-      <h2>About Us</h2>
-      <p>
-        Zetta Technologies provides optimum services in the IT and software development domains.
-      </p>
-    </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>DreamHomes Inc. is a dummy company created to showcase a simple website layout. We specialize in helping clients rent, buy, and sell properties with ease.</p>
+  </section>
 
-    <section>
-      <h2>Get Started</h2>
-      <p>
-        Click the button below to imagine something useful happening.
-      </p>
-      <button>Learn More Much much Later</button>
-    </section>
-  </main>
+  <section id="rent">
+    <h2>Properties To Rent</h2>
+    <p>Browse our wide range of rental properties suited for every lifestyle and budget.</p>
+  </section>
+
+  <section id="buy">
+    <h2>Properties To Buy</h2>
+    <p>Find your dream home with our curated listings of properties available for purchase.</p>
+  </section>
+
+  <section id="sell">
+    <h2>Sell Your Property</h2>
+    <p>Looking to sell? We provide expert guidance and marketing to help you get the best value.</p>
+  </section>
 
   <footer>
-    © 2026 Example Company. All rights reserved.
+    <p>&copy; 2026 DreamHomes Inc. | All Rights Reserved</p>
   </footer>
-
 </body>
 </html>
 
